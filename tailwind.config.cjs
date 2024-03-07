@@ -25,8 +25,8 @@ module.exports = {
         bodydark: '#AEB7C0',
         bodydark1: '#DEE4EE',
         bodydark2: '#8A99AF',
-        primary: '#3C50E0',
-        secondary: '#80CAEE',
+        primary: '#850129', // Primary Brand - Burgundy
+        secondary: '#6e6159', // Text Muted - Umber
         stroke: '#E2E8F0',
         gray: '#EFF4FB',
         graydark: '#333A48',
@@ -51,6 +51,14 @@ module.exports = {
         success: '#219653',
         danger: '#D34053',
         warning: '#FFA70B',
+        siteWhite: '#fcfcfcfc',  
+        lightGray: '#f0efee', 
+        typeBlack: '#333333', 
+        siteBlack: '#181716', 
+        growG: '#504aa1',  
+        growR: '#ed3563', 
+        growO: '#60c3a6', 
+        growW: '#fcca09',  
       },
       fontSize: {
         'title-xxl': ['44px', '55px'],
@@ -232,8 +240,8 @@ module.exports = {
         8: '1px 0 0 #313D4A, -1px 0 0 #313D4A, 0 1px 0 #313D4A, 0 -1px 0 #313D4A, 0 3px 13px rgb(0 0 0 / 8%)',
       },
       dropShadow: {
-        1: '0px 1px 0px #E2E8F0',
-        2: '0px 1px 4px rgba(0, 0, 0, 0.12)',
+        1: '0px 1px 4px rgba(133, 1, 41, 0.1)',
+        2: '0px 2px 6px rgba(133, 1, 41, 0.15)',
       },
       keyframes: {
         rotating: {
